@@ -10,7 +10,7 @@ function ViewData() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/view-data");
+        const res = await axios.get("https://expense-manager-xrfq.onrender.com/api/view-data");
         setData(res.data);
 
         const total = res.data.reduce(

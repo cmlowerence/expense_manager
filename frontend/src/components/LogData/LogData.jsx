@@ -20,7 +20,7 @@ function LogData() {
   const onSubmit = async e => {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost:5000/api/log-data', formData);
+      const res = await axios.post('https://expense-manager-xrfq.onrender.com/api/log-data', formData);
       alert('Log Entry Created successfully');
       console.log(res);
       // or if your API returns a specific message
