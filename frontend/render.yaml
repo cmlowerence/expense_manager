@@ -1,0 +1,7 @@
+routes:
+  - path: /*
+    service: web
+    type: rewrite
+  - path: /404
+    file: /404.html
+    type: error

@@ -1,0 +1,78 @@
+/* 404.css */
+
+/* Body styles */
+.bg-gray-100 {
+  background-color: #f0f0f0;
+}
+.flex {
+  display: flex;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.h-screen {
+  height: 100vh;
+}
+
+/* Text styles */
+.text-center {
+  text-align: center;
+}
+.text-6xl {
+  font-size: 4rem; /* Adjusted for responsiveness */
+}
+.font-bold {
+  font-weight: bold;
+}
+.text-blue-600 {
+  color: #2563eb;
+}
+.text-2xl {
+  font-size: 1.5rem; /* Adjusted for responsiveness */
+}
+.md\:text-3xl {
+  font-size: 1.875rem; /* Adjusted for responsiveness */
+}
+.font-light {
+  font-weight: lighter;
+}
+.mt-4 {
+  margin-top: 1rem;
+}
+.mt-2 {
+  margin-top: 0.5rem;
+}
+.text-gray-600 {
+  color: #4b5563;
+}
+.text-lg {
+  font-size: 1.125rem; /* Adjusted for responsiveness */
+}
+
+/* Button styles */
+.inline-block {
+  display: inline-block;
+}
+.px-6 {
+  padding-left: 1.5rem; /* Adjusted for responsiveness */
+  padding-right: 1.5rem; /* Adjusted for responsiveness */
+}
+.py-3 {
+  padding-top: 0.75rem; /* Adjusted for responsiveness */
+  padding-bottom: 0.75rem; /* Adjusted for responsiveness */
+}
+.bg-blue-600 {
+  background-color: #2563eb;
+}
+.text-white {
+  color: #fff;
+}
+.rounded-full {
+  border-radius: 9999px;
+}
+.hover\:bg-blue-700:hover {
+  background-color: #1d4ed8;
+}
