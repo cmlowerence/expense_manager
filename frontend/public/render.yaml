@@ -1,7 +1,22 @@
+services:
+  - type: web
+    name: my-frontend
+    env: static
+    staticPublishPath: dist
+
 routes:
-  - path: /*
-    service: web
-    type: rewrite
+  - path: /view-data
+    destination: /index.html
+    status: 200
+    force: true
+  - path: /log-data
+    destination: /index.html
+    status: 200
+    force: true
   - path: /404
     file: /404.html
-    type: error
+    status: 404
+  - path: /*
+    destination: /index.html
+    status: 200
+    force: true
