@@ -4,6 +4,7 @@ import Nav from "./components/Navbar/Navbar";
 import Home from "./Home";
 import LogData from "./components/LogData/LogData";
 import ViewData from "./components/ViewData/ViewData";
+import NotFound from "./components/NotFound"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/log-data" element={<LogData />}></Route>
           <Route path="/view-data" element={<ViewData />}></Route>
+<Route component={NotFound} />
         </Routes>
       </Router>
     </div>
