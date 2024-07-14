@@ -15,7 +15,7 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/log-data" element={<LogData />}></Route>
           <Route path="/view-data" element={<ViewData />}></Route>
-<Route component={NotFound} />
+<Route component={<NotFound />} />
         </Routes>
       </Router>
     </div>
