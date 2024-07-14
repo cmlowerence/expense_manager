@@ -35,7 +35,7 @@ connectDB();
 
 app.use(cors());
 app.use(express.json());
-app.use(logRoutes);
+app.use('/api', logRoutes);
 
 // Serve frontend
 if (process.env.NODE_ENV === 'production') {
